@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ZipCodePickerComponent should render zipcode 1`] = `
+<div>
+  <div>
+    <div
+      class="MuiFormControl-root MuiTextField-root"
+    >
+      <div
+        class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+      >
+        <input
+          aria-invalid="false"
+          class="MuiInputBase-input MuiInput-input"
+          placeholder="Enter a zip code"
+          type="text"
+          value="90210"
+        />
+      </div>
+    </div>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        Get Weather
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+    <p>
+      The zipcode is: 
+      90210
+    </p>
+  </div>
+</div>
+`;
