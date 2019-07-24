@@ -1,20 +1,12 @@
 import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ZipCodePickerContainer from './zipcode/ZipCodePickerContainer';
 
 function App() {
-  const [currentTime, setCurrentTime] = useState(new Date());
-  setInterval(() => {
-    setCurrentTime(new Date());
-  }, 500);
-
-  return (
+    return (
     <div className="App">
-      <h1>{
-          currentTime.toString()
-        }
-      </h1>
-      <h2>{currentCounter}</h2>
+      <ZipCodePickerContainer />
     </div>
   );
 }
